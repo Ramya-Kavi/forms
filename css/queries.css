@@ -9,7 +9,9 @@
 
     section{
         width:70%;
-        margin: 80px; 
+/*         margin: 80px;  */
+                margin:300px 80px ;
+
        /* margin-top: 90px; */
    }
 
