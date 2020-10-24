@@ -1,0 +1,81 @@
+
+/* 1022 to 1200 */
+@media only screen and (max-width:1200px){
+
+    body{
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    section{
+        width:70%;
+        margin: 80px; 
+       /* margin-top: 90px; */
+   }
+
+}
+/* 768px  to 1023 */
+@media only screen and (max-width:1023px){
+    body{
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    section{
+         width: 80%; 
+        margin: 50px;
+        margin-right: 100px;
+       
+   }
+ 
+ }
+
+ /* 481px to 767px */
+    @media only screen and (max-width:767px){
+        body{
+            width: 100%;
+            padding: 0 2%;
+        }
+    section{
+    padding: 5px 10px;
+        width: 95%;
+        margin: 20px;
+        font-size: 17px;
+    }
+
+     input[type=submit],
+   input[type=reset]{
+   
+   padding: 5px  10px ;
+   margin-top: 5px;
+   margin-left: -40px;
+   margin-right: 50px;
+ } 
+    }
+@media only screen and (max-width:480px){
+    section{ 
+       width: 99%;
+       margin: 5px;
+       font-size: 13px;
+   }
+
+   input[type=text],
+  input[type=email],
+  input[type=password],
+  input[type=confirm-password],
+  input[type=number]{
+    width: 75%;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #0fabbc;
+    margin-bottom: 4px;
+    margin-left: 20px;
+  }
+
+
+    input[type=submit],
+   input[type=reset]{
+   padding: 10px  30px ;
+   margin: 10px 5px;
+ } 
+}
